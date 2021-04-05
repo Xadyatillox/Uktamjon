@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  margin:0;
+  padding: 0;
+  background-color: #f5f8fa;
+  text-align: center;
+}
+h1{
+  margin: 20px;
+}
+.prices{
+  display: flex;
+  text-align: center;
+}
+li{
+
+  width: 33%;
+margin: 20px;
+list-style:none;
+box-shadow: 0 1em 0.5em rgb(0 0 0/5%);background-color: white;
+padding: 70px 30px;
+
+}
+a{
+  border: solid 2px rgb(14, 230, 35);
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: rgb(14, 230, 35);
+  color: white;
+}
+a:hover{
+  color:  rgb(14, 230, 35);
+  background-color: white;
+border: white
+}
+p{
+  color: rgb(14, 230, 35);
+margin: 10px;
+line-height: 2;
+font-size: 20px;
+font-weight: lighter;
+padding: 5px;
+}
+
+span{
+  color: rgb(214, 214,214);
+  font-size:40px;
+}
+.image{
+
+  height: 100vh;
+  background-image: url(../images/nature.jpg);
+clip-path: polygon(0 8%, 100% 26%, 100% 94%, 0 76%);
+  background-position: right;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.header{
+  background-image: linear-gradient(rgba(7, 237, 80, 0.2),  rgba(7,237, 80, 0.2)) ,url(../images/nature.jpg);
+  height: 110vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 89%);
+
+}
+.logobox{
+  position:absolute;
+  padding: 10px;
+
+}
+.logo{
+  height: 80px;
+  width: 300px;
+}
+.header-text{
+  padding-top: 200px;
+}
+.headh1{
+  font-size: 40px;
+  color: white;
+  font-family: monospace;
+}
+.headh3{
+  font-size: 30px;
+  color: white;
+    font-family: monospace;
+}
+.section1{
+  width: 50%;
+  height: 20%;
+  background-color: white;
+  padding: 60px;
+box-shadow: 0 1em 5em rgb(0 0 0 / 5%);
+margin: 50px auto
+}
+.lorem{
+  width: 50%;
+  line-height: 2;
+  margin: auto;
+  padding: 20px;
+color: gray;
+font-family: cursive;
+}
+.name{
+ border: solid lightgreen 2px;
+ border-radius: 20px;
+ padding: 5px;
+ width: 30%;
+ outline: none;
+ transition: .4s ease-in-out;
+ margin-left: 10px;
+ margin-top: 10px;
+}
+.name:focus{
+  width: 50%;
+  border-color: black
+}
+.btn{
+  border: solid 2px rgb(14, 230, 35);
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: rgb(14, 230, 35);
+  color: white;
+}
+.btn:hover{
+  color:  rgb(14, 230, 35);
+  background-color: white;
+border: white;
+}
